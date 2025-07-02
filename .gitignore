@@ -1,0 +1,21 @@
+# Java compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDE files (e.g. VS Code, IntelliJ, Eclipse)
+.vscode/
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# Mac system files
+.DS_Store
