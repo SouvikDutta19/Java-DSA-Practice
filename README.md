@@ -15,6 +15,36 @@ So I started this initiative to dedicate a small portion of each day toward solv
 
 ---
 
+## 🔥 Technologies Covered So Far
+
+- ✅ Java Basics & Core Concepts (loops, conditionals, recursion)
+- ✅ Input/Output using `Scanner`
+- ✅ String manipulation & operations
+- ✅ Arrays and Array traversal
+- ✅ Sorting techniques (basic)
+- ✅ Prime numbers, Fibonacci, Palindrome, Factorial
+- ✅ Mathematical logic (Armstrong, Strong, Perfect numbers)
+- ✅ Bitwise & Numeric conversions (Binary ↔ Decimal)
+- ✅ Recursion-based logic
+- ✅ Regex and string filters
+- ✅ DSA Foundation Concepts
+
+---
+
+## 📚 Completed Topics & Problems
+
+| Day | Programs Added |
+|-----|----------------|
+| ✅ Day 1 | Reverse String, Count Vowels, Palindrome Check |
+| ✅ Day 2 | Fibonacci Series, Even/Odd Check, Power of Number |
+| ✅ Day 3 | GCD & LCM, Character Count, Leap Year Check |
+| ✅ Day 4 | Anagram Check, Sum of Digits, Find Largest |
+| ✅ Day 5 | Binary to Decimal, Sort Array, Strong Number |
+| ✅ Day 6 | Armstrong Number, Prime Check, Swap, Decimal to Binary |
+| ✅ Day 7 | Word Count, Remove Vowels, Perfect Number, Prime in Range |
+
+---
+
 ## 📅 Daily Practice — My Personal Discipline 🔁
 
 I am pushing myself to commit **1–3 problems per day**, consistently, no matter how small or complex the challenge. Each day, I open VS Code, pick a problem (sometimes from platforms like LeetCode or GeeksforGeeks), and solve it using Java.  
