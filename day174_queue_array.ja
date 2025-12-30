@@ -1,0 +1,25 @@
+public class day174_queue_array {
+    int front=0, rear=0, size;
+    int[] queue;
+
+    day174_queue_array(int size){
+        this.size=size;
+        queue=new int[size];
+    }
+
+    public void enqueue(int data){
+        if(rear==size){ System.out.println("Queue Full"); return; }
+        queue[rear++]=data;
+    }
+
+    public int dequeue(){
+        if(front==rear){ System.out.println("Queue Empty"); return -1; }
+        return queue[front++];
+    }
+
+    public static void main(String[] args){
+        day174_queue_array q = new day174_queue_array(5);
+        q.enqueue(10); q.enqueue(20);
+        System.out.println(q.dequeue());
+    }
+}
