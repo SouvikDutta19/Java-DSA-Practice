@@ -1,0 +1,34 @@
+import java.util.*;
+
+public class day200_merge_k_sorted_lists {
+
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int val){ this.val = val; }
+    }
+
+    public static ListNode mergeKLists(ListNode[] lists) {
+
+        PriorityQueue<ListNode> pq =
+                new PriorityQueue<>(Comparator.comparingInt(a -> a.val));
+
+        for(ListNode node : lists)
+            if(node != null)
+                pq.add(node);
+
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+
+        while(!pq.isEmpty()){
+            ListNode node = pq.poll();
+            curr.next = node;
+            curr = curr.next;
+
+            if(node.next != null)
+                pq.add(node.next);
+        }
+
+        return dummy.next;
+    }
+}
